@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Lekton);
+
+body {
+	background-image: url('../img/background-image.jpg');
+}
+
+.row {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.container {
+	padding-bottom: 10%;
+}
+
+.top-row {
+	margin-bottom: -100px;
+}
+
+.img-responsive {
+	box-shadow: 5px 5px 5px #BCBCBC;
+}
+
+.side-navigation ul li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.pencil-mark {
+	float: left;
+}
+
+.side-navigation ul li a {
+	list-style: none;
+	text-align: left;
+	color: #40618b;
+	text-decoration: none;
+}
+
+.side-navigation ul li a:hover {
+	color: #2e4664;
+}
+
+.main-nav ul li {
+	padding-top: 3%;
+	list-style: none;
+	display: inline-block;
+	font-family: 'Lekton', sans-serif;
+	font-size: 1.25em;
+}
+
+.main-nav ul li a {
+	color: #424242;
+}
+
+.main-nav ul li a:hover {
+	color: #BCBCBC;
+	text-decoration: none;
+}
