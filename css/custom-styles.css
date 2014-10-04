@@ -58,10 +58,22 @@ body {
 	text-decoration: none;
 }
 
-/* margin-left for the inner image in the modal: 30% */
 .centered-img-modal {
 	margin-left: 30%;
 }
+
+@media (max-width: 991px) {
+	.side-navigation ul {
+		/*background-color: blue;*/
+		text-align: center;
+		font-size: 1.25em;
+		line-height: 1.75em;
+	}
+	.side-navigation ul li {
+		display: inline;
+	}
+}
+
 
 
 
