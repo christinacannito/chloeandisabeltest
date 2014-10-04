@@ -57,3 +57,13 @@ body {
 	color: #BCBCBC;
 	text-decoration: none;
 }
+
+/* margin-left for the inner image in the modal: 30% */
+.centered-img-modal {
+	margin-left: 30%;
+}
+
+
+
+
+
