@@ -114,11 +114,12 @@ body {
 	}
 
 	.main-nav {
-		width: 430px;
+		width: 440px;
 	}
 	.main-nav ul li {
 		display: inline;
 		padding: 10px;
+		font-size: 1.25em;
 	}
 }
 
