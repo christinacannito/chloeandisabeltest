@@ -6,6 +6,17 @@
 	<link rel="stylesheet" type="text/css" href="css/custom-styles.css">
 	<link rel="image" type="image/png" href="img/logo.png">
 	<meta content='width=device-width, initial-scale=1, minimal-ui' name='viewport'>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#general-knowledge").click(function() {
+          $(".general-knowledge-img").hide("normal");
+      });
+      $("#tips-tools").click(function() {
+          $(".tips-tools-img").hide("normal");
+      });
+    });  
+  </script>
 </head>
 <body>
 	<div class="container">
@@ -34,8 +45,8 @@
 						<li><a id="latest-updates" href="#">Latest Updates</a></li>
 						<li><a id="merch-incentives" href="#">Merch Incentives</a></li>
 						<li><a id="hostess-incentives" href="#">Hostess Incentives</a></li>
-						<li><a id="general-knowledge" href="#">General Knowledge</a></li>
-						<li><a id="tips-tools" href="#">Tips + Tools</a></li>
+						<li id="general-knowledge"><a href="#">General Knowledge</a></li> <!--working on -->
+						<li id="tips-tools"><a href="#">Tips + Tools</a></li>
 						<li><a id="current-collection" href="#">Current Collections</a></li>
 						<li><a id="shop-themes" href="#">Pop-up Shop Themes</a></li>
 						<li><a id="buying-inventory" href="#">Buying + Inventory</a></li>
@@ -45,7 +56,7 @@
 
 			<div class="col-sm-9">
 				<div class="row">
-					<div class="col-sm-3 smaller-screen-size">
+					<div class="col-sm-3 smaller-screen-size tips-tools-img">
 						<a href="#" data-toggle="modal" data-target=".first-image">
 							<img class="img-responsive" src="img/FAQS.jpg" alt="questions and answers card">
 						</a>
@@ -56,7 +67,7 @@
 				</div> 
 			</div> <!-- end of column -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".second-image">
 					<img class="img-responsive" src="img/Contact-guide.jpg" alt="contact information card">
 				</a>	
@@ -67,7 +78,7 @@
 				</div> <!-- end of modal -->
 			</div> <!-- end of column -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".third-image">
 					<img class="img-responsive" src="img/merchandiser-t-c.jpg" alt="merchandiser T + C card">
 				</a>	
@@ -80,7 +91,7 @@
 		</div> <!-- top row -->
 		
 		<div class="row">
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size general-knowledge-img tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".fourth-image">
 					<img class="img-responsive" src="img/perfect-fall-sets-featuring-birthstones.jpg" alt="information about perfect fall sets">
 				</a>
@@ -91,7 +102,7 @@
 				</div> <!-- end of modal -->
 			</div> <!-- end of column -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size general-knowledge-img tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".fifth-image">
 					<img class="img-responsive" src="img/must-haves-fall-2014.jpg" alt="The must haves for fall 2014">
 				</a>
@@ -103,7 +114,7 @@
 			</div> <!-- end of column -->
 
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size general-knowledge-img">
 				<a href="#" data-toggle="modal" data-target=".sixth-image">
 					<img class="img-responsive" src="img/c-i-ring-sizer.jpg" alt="Know your ring size! Ring sizer">
 				</a>
@@ -118,7 +129,7 @@
 		</div> <!-- 2nd row -->
 
 		<div class="row">
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size general-knowledge-img tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".seventh-image">
 					<img class="img-responsive" src="img/botanica-boutique-inspiration.jpg" alt="Inspirations for Botanica Boutique">
 				</a>
@@ -131,7 +142,7 @@
 				</div> <!-- end of modal -->
 			</div> <!-- end of column -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".eigth-image">
 					<img class="img-responsive" src="img/botanica-collection-linesheet.jpg" alt="The Botanica Collection Linesheet">
 				</a>
@@ -144,7 +155,7 @@
 				</div> <!-- end of modal -->
 			</div> <!-- end of column -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".ninth-image">
 					<img class="img-responsive" src="img/botanica-launch-checklist.jpg" alt="Botanica Launch Checklist">
 				</a>
@@ -159,7 +170,7 @@
 		</div> <!-- end of 3rd row -->
 
 		<div class="row">
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size general-knowledge-img tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".tenth-image">
 					<img class="img-responsive" src="img/jewelry-glossary-fall-2014.jpg" alt="Jewelry Glossary Fall 2014">
 				</a>	
@@ -172,7 +183,7 @@
 			  </div>
 			</div> <!-- end of modal -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size general-knowledge-img tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".eleventh-image">
 					<img class="img-responsive" src="img/evergreen-pop-up-inspiration.jpg" alt="Evergreen Pop-Up Inspiration">
 				</a>	
@@ -185,7 +196,7 @@
 			  </div>
 			</div> <!-- end of modal -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".twelfth-image">
 					<img class="img-responsive" src="img/buying-guide-fall-2014.jpg">
 				</a>	
@@ -213,7 +224,7 @@
 			  </div>
 			</div> <!-- end of modal -->			
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".fourteenth-image">
 					<img class="img-responsive" src="img/buying-guide-fall-2014-2.jpg" alt="Buying Guide 2014">
 				</a>	
@@ -226,7 +237,7 @@
 			  </div>
 			</div> <!-- end of modal -->
 
-			<div class="col-sm-3 smaller-screen-size">
+			<div class="col-sm-3 smaller-screen-size tips-tools-img">
 				<a href="#" data-toggle="modal" data-target=".fifteen-image">
 					<img class="img-responsive" src="img/buying-guide-fall-2014-2.jpg" alt="Buying Guide 2014">
 				</a>	
