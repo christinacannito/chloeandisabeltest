@@ -110,8 +110,15 @@ body {
 		margin-left: 60%;
 	}
 	#smallest-size {
-		/*background-color: blue;*/
-		width: 450px;
+		width: 440px;
+	}
+
+	.main-nav {
+		width: 430px;
+	}
+	.main-nav ul li {
+		display: inline;
+		padding: 10px;
 	}
 }
 
