@@ -62,10 +62,12 @@ body {
 	margin-left: 30%;
 }
 
+
+/* @media queries */
 @media (max-width: 767px) {
 	.side-navigation ul {
 		/*background-color: blue;*/
-		text-align: center;
+		/*text-align: center;*/
 		font-size: 1.25em;
 		line-height: 1.75em;
 	}
@@ -96,6 +98,22 @@ body {
 }
 
 
+@media (max-width: 640px) {
+	.smaller-screen-size img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 320px) {
+	#logo {
+		margin-left: 60%;
+	}
+	#smallest-size {
+		/*background-color: blue;*/
+		width: 450px;
+	}
+}
 
 
 
