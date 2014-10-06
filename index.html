@@ -11,30 +11,39 @@
     $(function() {
       $("#general-knowledge").click(function() {
           $(".general-knowledge-img").hide("normal");
+          $(this).css('background-color', '#6fcdd0');
       });
       $("#tips-tools").click(function() {
           $(".tips-tools-img").hide("normal");
+          $(this).css('background-color', '#6fcdd0');
       });
       $("#current-collection").click(function() {
       	$(".current-collection-img").hide("normal");
+      	$(this).css('background-color', '#6fcdd0');
       });
       $("#buying-inventory").click(function() {
       	$(".buying-inventory-img").hide("normal");
+      	$(this).css('background-color', '#6fcdd0');
       });
       $("#shop-themes").click(function() {
       	$(".shop-themes-img").hide("normal");
+      	$(this).css('background-color', '#6fcdd0');
       });
       $("#latest-updates").click(function() {
       	$(".latest-updates-img").hide("normal");
+      	$(this).css('background-color', '#6fcdd0');
       });
       $("#merch-incentives").click(function() {
       	$(".merch-incentives-img").hide("normal");
+      	$(this).css('background-color', '#6fcdd0');
       });
       $("#hostess-incentives").click(function() {
       	$(".hostess-incentives-img").hide("normal");
+      	$(this).css('background-color', '#6fcdd0');
       });
       $("#show").click(function() {
       	$(".show-imgs").show("normal");
+      	$(".side-navigation ul li.no-bg-color").css("background-color", 'transparent');
       });
     });  
   </script>
@@ -63,14 +72,14 @@
 					<img id="logo" src="img/the-feed-logo.png">
 					<ul id="smallest-size">
 						<li>FILTER BY:</li>
-						<li id="latest-updates"><a href="#">Latest Updates</a></li>
-						<li id="merch-incentives"><a href="#">Merch Incentives</a></li>
-						<li id="hostess-incentives"><a href="#">Hostess Incentives</a></li>
-						<li id="general-knowledge"><a href="#">General Knowledge</a></li> <!--working on -->
-						<li id="tips-tools"><a href="#">Tips + Tools</a></li>
-						<li id="current-collection"><a href="#">Current Collections</a></li>
-						<li id="shop-themes"><a href="#">Pop-up Shop Themes</a></li>
-						<li id="buying-inventory"><a href="#">Buying + Inventory</a></li>
+						<li id="latest-updates" class="no-bg-color"><a href="#">Latest Updates</a></li>
+						<li id="merch-incentives" class="no-bg-color"><a href="#">Merch Incentives</a></li>
+						<li id="hostess-incentives" class="no-bg-color"><a href="#">Hostess Incentives</a></li>
+						<li id="general-knowledge" class="no-bg-color"><a href="#">General Knowledge</a></li> <!--working on -->
+						<li id="tips-tools" class="no-bg-color"><a href="#">Tips + Tools</a></li>
+						<li id="current-collection" class="no-bg-color"><a href="#">Current Collections</a></li>
+						<li id="shop-themes" class="no-bg-color"><a href="#">Pop-up Shop Themes</a></li>
+						<li id="buying-inventory" class="no-bg-color"><a href="#">Buying + Inventory</a></li>
 						<li id="show" class="btn btn-primary btn-sm"><a href="#">Reset Filter</a></li>
 					</ul>
 				</nav>
